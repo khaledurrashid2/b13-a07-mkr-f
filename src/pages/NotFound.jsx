@@ -1,3 +1,5 @@
+// Not Found Info page
+
 import { useNavigate } from "react-router-dom";
 
 function NotFound() {

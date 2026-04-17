@@ -1,3 +1,6 @@
+// Timeline detail are shown in this page
+//---------------------------------------
+
 import { useState } from "react";
 import { useApp } from "../context/AppContext";
 import TimelineFilter from "../components/timeline/TimelineFilter";

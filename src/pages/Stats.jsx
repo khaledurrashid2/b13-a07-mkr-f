@@ -1,3 +1,5 @@
+// This page shows the stats
+
 import { useApp } from "../context/AppContext";
 import ChartCard from "../components/stats/ChartCard";
 

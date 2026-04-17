@@ -1,3 +1,6 @@
+// Home Page
+//-----------------------
+
 import { useState, useEffect } from "react";
 import { useApp } from "../context/AppContext";
 import Banner from "../components/home/Banner";

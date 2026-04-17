@@ -1,3 +1,5 @@
+// Friends Detail page
+
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import toast from "react-hot-toast";
