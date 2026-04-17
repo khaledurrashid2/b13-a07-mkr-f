@@ -1,16 +1,35 @@
-# React + Vite
+# KeenKeeper - a React application for keeping up with our friends network
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KeenKeeper is a streamlined web application to keep the relationships with friends.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Component-based UI library
+- **Tailwind CSS** - Utility-first styling
+- **daisyUI** - Visual library for Tailwind
+- **React Router DOM** - Routing for Single Page Applications
+- **React Hot Toast** - Lightweight notifications
+- **Recharts** - Charting library for data visualization
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Interactive Data Visualization**
+   Utilizes **Recharts** to provide pi charts.
+
+2. **Streamlined Navigation & Routing**
+   Integrated with **React Router DOM** to build this Single Page Application. 
+
+3. **Sophisticated UI/UX with Real-time Feedback**
+   Built using **daisyUI** and **React Hot Toast**.
+
+4. **User data in JSON Format**
+   Sample user data has been generated using ChatGPT.
+
+## 📦 Solution to the broken route issue on Netlify and other online hosts:
+
+To ensure routes like /stats or /friend/:id work correctly after deployment, this project includes a _redirects file in the public folder:
+
+    /* /index.html  200
